@@ -1,5 +1,13 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
+// heap snapshot at first visit https://prnt.sc/KrCF8rvF3fJY
+// heap snapshot after navigating between "main" and "about" pages 50 times https://prnt.sc/VevR3ZvU7QsG
+// heap after refresh https://prnt.sc/oAaj6JIIO1R6
+
+// reset heap and refresh browser https://prnt.sc/hMyKwY5pMDXk
+// heap after navigating between "main" and "big-data" pages 10 times https://prnt.sc/YFGIy_YcrD9n
+// heap after navigating between "main" and "big-data" pages 50 times https://prnt.sc/QESC4KfkxKMZ
+// similar behaviour in prod https://prnt.sc/Wr3AmX7DbrVg
 </script>
 
 <template>
